@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-arabic-heading: "Amiri", serif;
+  --font-arabic-sans: "Noto Sans Arabic", sans-serif;
+  
+  --color-ivory: #F8F7F2;
+  --color-ivory-light: #FDFCF9;
+  --color-primary: #173D32;
+  --color-primary-dark: #0F2821;
+  --color-primary-light: #235445;
+  --color-secondary: #A5B49F;
+  --color-secondary-light: #D6DEC8;
+  --color-accent: #B79A62;
+  --color-accent-light: #D4BD8B;
+  --color-accent-dark: #8F7441;
+  --color-charcoal: #242824;
+  --color-charcoal-muted: #596159;
+}
+
+:root {
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+}
+
+[dir="rtl"] {
+  --font-heading: "Amiri", "Cormorant Garamond", serif;
+  --font-body: "Noto Sans Arabic", "Plus Jakarta Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Subtle architectural Islamic geometric background pattern */
+.bg-islamic-pattern {
+  background-color: #F8F7F2;
+  background-image: radial-gradient(rgba(183, 154, 98, 0.08) 1px, transparent 1px), radial-gradient(rgba(23, 61, 50, 0.05) 1px, #F8F7F2 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.bg-islamic-pattern-dark {
+  background-color: #173D32;
+  background-image: radial-gradient(rgba(183, 154, 98, 0.15) 1px, transparent 1px), radial-gradient(rgba(165, 180, 159, 0.08) 1px, #173D32 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #A5B49F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #173D32;
+}

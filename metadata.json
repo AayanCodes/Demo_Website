@@ -1,0 +1,6 @@
+{
+  "name": "Noor Academy — Islamic International School",
+  "description": "Official website for Noor Academy in Sharjah, UAE. An Islamic International Academy rooted in values and ready for the world, offering Early Years to Grade 12 bilingual British-international education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
